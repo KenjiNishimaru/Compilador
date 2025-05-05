@@ -1,0 +1,32 @@
+Palavra reservada: int
+Identificador: main
+Delimitador: (
+Delimitador: )
+Delimitador: {
+Palavra reservada: int
+Identificador: var1tres
+Delimitador: [
+Número Inteiro: 10
+Delimitador: ]
+Delimitador: ;
+Identificador: char
+Identificador: a
+Atribuição: =
+Erro léxico: caractere inválido: '
+Identificador: c
+Erro léxico: caractere inválido: '
+Delimitador: ;
+Identificador: float
+Identificador: y
+Atribuição: =
+Número Inteiro: 20
+Erro léxico: caractere inválido: .
+Número Inteiro: 5
+Delimitador: ;
+Identificador: y
+Atribuição: =
+Identificador: y
+Operador Aritmético: +
+Número Inteiro: 1
+Delimitador: ;
+Delimitador: }

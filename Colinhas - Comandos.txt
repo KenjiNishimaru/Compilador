@@ -1,0 +1,7 @@
+Toda vez que alterar o analise.l (analisador léxico - arquivo no qual vc escreve as palavras reservadas da linguagem C-)
+	> flex analise.l
+O Comando gera um arquivo lex.yy.c (por padrão), e ao rodar o comando:
+	gcc lex.yy.c -o lexer
+Cria um arquivo chamado lexer, que é o programa executável que toma como input o programa em C-, e traduz para os tokens:
+	./lexer < entrada.c
+	./lexer < entrada.c > saida.txt
